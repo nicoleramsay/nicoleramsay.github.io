@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- default scale -->
+    <title>Nicole Ramsay | Multimedia Artist and Web Designer</title> 
+    <meta name="description" content="An artistic portfolio featuring my best works of artwork and design, to show potential web design employers. Also features what the power of energy drinks can do to me."> <!-- description of website-->
+    <meta name="keywords" content="portfolio,digital media,art,concept,design,graphic design,Nicole Ramsay"> <!-- keywords for google search -->
+    <meta name="author" content="Nicole Ramsay"> <!-- author of content-->
+    <link rel="icon" href="assets/favicon.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--    <script src="js/jquery.parallax.js"></script>-->
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
+<link href="css/bootstrap3.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/animations.css">
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+
+           <link href="css/agency.min.css" rel="stylesheet"> 
+            <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.featured'  
+      		}     
+				});								
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	<script src="js/modernizr-custom.js"></script>
+    
+    <style>
+
+        .portfolio {
+            border: 4px solid black;
+            border-radius: 4px;
+        }
+        
+    </style>
+
+    </head>
+    
+<body>
+  
+<!--======================================================
+    HOME
+======================================================-->
+
+<!--======================================================
+    NAVIGATION
+======================================================-->  
+
+<div class="vNav">
+       <ul class="vNav">
+            <li>
+                <a data-scroll href="#home">
+                    <div class="label">Home</div>
+                </a>
+            </li>
+            <li>
+                <a data-scroll href="#about">
+                    <div class="label">About</div>
+                </a>
+            </li>
+            <li>
+                <a data-scroll href="#work">
+                    <div class="label">Work</div>
+                </a>
+            </li>
+            <li>
+                <a data-scroll href="#skills">
+                    <div class="label">Skills</div>
+                </a>
+            </li>
+                <li>
+                <a data-scroll href="#contact">
+                    <div class="label">Contact</div>
+                </a>
+            </li>
+     </ul>
+    </div>
+
+<!--
+==================
+MOBILE NAV
+==================
+-->
+    <nav class="navbar navbar-inverse navbar-fixed-top animate">
+		<div class="navbar-more">
+
+		</div>
+		<div class="container">
+
+			<ul class="nav navbar-nav navbar-right mobile-bar">
+				<li>
+					<a data-scroll href="#homeanch">
+						<span class="menu-icon fa fa-home"></span>
+						Home
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#aboutanch">
+						<span class="menu-icon fa fa-user"></span>
+						About
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#workanch">
+						<span class="menu-icon fa fa-briefcase"></span>
+						Work
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#skillsanch">
+						<span class="menu-icon fa fa-paint-brush"></span>						
+                        Skills
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#contactanch">
+						<span class="menu-icon fa fa-phone"></span>
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+<div id="home" class="par">
+       <a id="homeanch" class="smooth"></a>
+    <ul id="scene" class="scene">
+
+        <li class="layer" data-depth="0.05"><div id="parabg"></div></li>
+        <li class="layer" data-depth="0.10"><div id="thirdmountain"></div></li>
+        <li class="layer" data-depth="0.15"><div id="bottomcloud"></div></li>
+        <li class="layer" data-depth="0.50"><div id="secondmountain"></div></li>
+            <li class="layer" data-depth="0.25"><div id="birds"></div></li>
+        <li class="layer" data-depth="0.80"><div id="dinomount"></div></li>
+            <li class="layer" data-depth="0.4"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.06 213.94"><defs><style>.cls-1{fill:none;}</style></defs><title>signature2</title><path class="cls-1" d="M6.21,127.9" transform="translate(-5.92 -6.45)"/><path class="cls1" d="M5.92,151.1a406.26,406.26,0,0,1,35.21-107c6.4,24.45,6,50.09,5.39,75.35-0.3,11.88-.56,24.2,4.17,35.1,7.9-19.83,11.52-41,17.22-61.61s13.9-41.19,29-56.26" transform="translate(-5.92 -6.45)"/><path class="cls1" d="M67.08,14.08c0.49-2.53,3.13-4,5.55-4.85C85.16,4.68,99.3,6,111.71,10.89S135,23.82,145,32.68c13,11.55,25.53,26.92,23.65,44.21-1.65,15.22-14.74,27.4-29.38,31.92s-30.47,2.65-45.38-.84c0.63,6.89,1.37,14.09,5.17,19.88s11.71,9.5,17.85,6.31c1.36-.71,2.79-1.75,4.27-1.34s2.23,2.16,2.7,3.67l3.86,12.3a67.89,67.89,0,0,0,18.16-17.32,23.86,23.86,0,0,1-.09,16.38,49,49,0,0,0,20.06-.32L165,159.32a240.63,240.63,0,0,1,56-24.27c-2.85,8.26-9.09,14.82-15.16,21.11l-62,64.23c16-29,43.25-49.82,70.51-68.62C268.66,114.37,325.86,81.5,383,48.67" transform="translate(-5.92 -6.45)"/></svg></li>
+        <li class="layer" data-depth="0.30"><div id="topcloud"></div></li>
+        <li class="layer" data-depth="1"><div id="treestump"></div></li>
+        <li class="layer" data-depth="2"><div id="flowers"></div></li>
+        <li class="layer" data-depth="0"><div class="paranoise"></div></li>
+
+            </ul>
+    </div>
+<a class="arrow-wrap" href="#aboutanch">
+    <span class="arrow"></span></a>
+
+    
+    
+
+
+
+
+
+<!--======================================================
+    ABOUT
+======================================================-->
+
+
+<div id="about" class="par">
+    <a id="aboutanch" class="smooth"></a>
+    
+
+    <div class="animatedParent animateOnce">
+    <section class="cd-intro">
+     <h1 class="cd-headline loading-bar">
+			<span id="anim">I AM</span><br>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">AN ARTIST</b>
+				<b>A DESIGNER</b>
+				<b>NICOLE RAMSAY</b></span>
+		</h1>
+    </section>
+    
+            <p class="animated fadeInUp"><span class="highlight">Hi.</span> I’m Nicole, and I am a digital artist studying at the 
+University of Kent. I am obsessed with the development and the journey of art and design that finalises the idea into a 
+                potential reality.<br><br>
+
+I spend a considerable amount of free time outside of work pushing my creative boundaries, experimenting with 
+different art styles and mediums.<br><br>
+
+
+                You can check out my work portfolio <a data-scroll href="#workanch"><span class="highlight">below.</span></p></a>
+    </div>
+    </div>
+<section class="animatedParent animateOnce">
+
+
+
+<div id="inner-content-div">
+<div id="work" class="par">
+
+    <a id="workanch" class="smooth"></a>
+
+<div class="container-fluid">
+  <div class="row"> <!-- change to container for regular style -->
+   <h2>WALL OF WORK.</h2>
+		<ul id="filters" class="list-group">
+<!--			<li><span class="filter active" data-filter=".illustration, .graphics, .traditional, .film, .photo">All</span></li>-->
+			<li class="list-group-item"><span class="filter" data-filter=".featured">Featured</span></li>
+						<li class="list-group-item"><span class="filter" data-filter=".web">Web Design</span></li>
+            <li class="list-group-item"><span class="filter" data-filter=".graphics">Graphic Design</span></li>
+			<li class="list-group-item"><span class="filter" data-filter=".illustration">Digital Illustration</span></li>
+			<li class="list-group-item"><span class="filter" data-filter=".traditional">Traditional Art</span></li>
+			<li class="list-group-item"><span class="filter" data-filter=".film">Film and VFX</span></li>
+
+		</ul>
+		<div class="row">
+		 <div class="col-md-8 col-sm-offset-2">
+
+		<div id="portfoliolist">
+					<div class="portfolio web featured" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal34" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/33.jpg" class="grayscale" alt="Annie's at Folkestone, click to view more" />
+                    </a>
+				</div>
+			</div>				
+
+			
+			<div class="portfolio illustration featured" data-cat="illustration,featured">
+				<div class="portfolio-wrapper">
+                    <a data-target="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+					<img src="assets/gallery/thumb/1.jpg" class="grayscale" alt="Restart, click to view more" />
+
+                    </a>
+                    
+				</div>
+			</div>
+			<div class="portfolio web featured" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal32" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/31.jpg" class="grayscale" alt="Magnetism Game" />
+                    </a>
+				</div>
+			</div>
+						<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal35" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/34.jpg" class="grayscale" alt="The Importance of Play, click to view more" />
+                    </a>
+				</div>
+			</div>				
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal2" class="portfolio-link" data-toggle="modal">	
+					<img src="assets/gallery/thumb/2.jpg" class="grayscale" alt="Night Hunter, click to view more" />
+                    </a>
+
+				</div>
+			</div>		
+			
+			<div class="portfolio graphics illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				                    <a data-target="#portfolioModal3" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/3.jpg" class="grayscale" alt="Alpha and Omega, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			
+			<div class="portfolio illustration featured" data-cat="illustration,featured">
+				<div class="portfolio-wrapper">
+                <a data-target="#portfolioModal4" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/4.jpg" class="grayscale" alt="Interceptor j7w1, click to view more" />
+                    </a>
+
+				</div>
+			</div>	
+						
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				               <a data-target="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+					<img src="assets/gallery/thumb/5.jpg" class="grayscale" alt="The Elements, click to view more" />
+                    </a>
+				</div>
+			</div>			
+			
+			<div class="portfolio illustration featured" data-cat="illustration,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal6" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/6.jpg" class="grayscale" alt="Metamorphosis, click to view more" />
+                    </a>
+				</div>
+			</div>	
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">	
+				<a data-target="#portfolioModal7" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/7.jpg" class="grayscale" alt="Raptor Concepts, click to view more" />
+                    </a>
+				</div>
+			</div>	
+			
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal8" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/8.jpg" class="grayscale" alt="Bad Trip" />
+                    </a>
+				</div>
+			</div>																																							
+			
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal9" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/9.jpg" class="grayscale" alt="We are Oblivious, click to view more" />
+                    </a>
+				</div>
+			</div>														
+			
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal10" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/10.jpg" class="grayscale" alt="Contrast Poster, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio illustration featured" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal41" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/41.jpg" class="grayscale" alt="Esfir, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal11" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/11.jpg" class="grayscale" alt="Polar Opposites, click to view more" />
+                    </a>
+				</div>
+			</div>																	
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal12" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/12.jpg" class="grayscale" alt="Evolution" />
+                    </a>
+				</div>
+			</div>													
+			
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal14" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/14.jpg" class="grayscale" alt="Falling Sun, click to view more" />
+                    </a>
+				</div>
+			</div>							
+
+			<div class="portfolio graphics featured" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal15" class="portfolio-link" data-toggle="modal">							
+					<img src="assets/gallery/thumb/15.jpg" class="grayscale" alt="Business Card, click to view more" />
+                    </a>
+				</div>
+			</div>																								
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal16" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/16.jpg" class="grayscale" alt="Calligram, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			
+			<div class="portfolio graphics featured" data-cat="graphics,featured">
+				<div class="portfolio-wrapper">
+								<a data-target="#portfolioModal17" class="portfolio-link" data-toggle="modal">							
+					<img src="assets/gallery/thumb/17.jpg" class="grayscale" alt="Air Show poster, click to view more" />
+                    </a>
+				</div>
+			</div>																	
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal18" class="portfolio-link" data-toggle="modal">	
+					<img src="assets/gallery/thumb/18.jpg" class="grayscale" alt="Instagram Promo Design 1, click to view more" />
+                    </a>
+				</div>
+			</div>																																																																
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal19" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/19.jpg" class="grayscale" alt="Instagram Promo Design 2, click to view more" />
+                    </a>
+				</div>
+			</div>			
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal21" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/20.jpg" class="grayscale" alt="Survival, click to view more" />
+                    </a>
+				</div>
+			</div>									
+			
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal22" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/21.jpg" class="grayscale" alt="Danger Close, click to view more" />
+                    </a>
+				</div>
+			</div>																	
+
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal23" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/22.jpg" class="grayscale" alt="No More, click to view more" />
+                    </a>
+				</div>
+			</div>																												
+			
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal24" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/23.jpg" class="grayscale" alt="The Eye, click to view more" />
+                    </a>
+				</div>
+			</div>																								
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal25" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/24.jpg" class="grayscale" alt="Stale Dystopia" />
+                    </a>
+				</div>
+			</div>	
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal26" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/25.jpg" class="grayscale" alt="Meant to Be, click to view more" />
+                    </a>
+				</div>
+			</div>				
+										
+				<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal27" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/26.jpg" class="grayscale" alt="CD Case Design, click to view more" />
+                    </a>
+				</div>
+			</div>		
+					
+				<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal28" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/27.jpg" class="grayscale" alt="CD Inset Design, click to view more" />
+                    </a>
+				</div>
+			</div>
+							
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal29" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/28.jpg" class="grayscale" alt="CD Back Cover Design, click to view more" />
+                    </a>
+				</div>
+			</div>				
+										
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">	
+				<a data-target="#portfolioModal30" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/29.jpg" class="grayscale" alt="Breathe, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">	
+				<a data-target="#portfolioModal31" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/30.jpg" class="grayscale" alt="Breathe, click to view more" />
+                    </a>
+				</div>
+			</div>	
+							
+			<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal33" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/32.jpg" class="grayscale" alt="3D Reel, click to view more" />
+                    </a>
+				</div>
+			</div>				
+																						
+			<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal36" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/35.jpg" class="grayscale" alt="Wheelbarrow Model, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal20" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/36.jpg" class="grayscale" alt="Rough Tempo Artist Design, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal37" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/37.jpg" class="grayscale" alt="Takeoff, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal38" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/38.jpg" class="grayscale" alt="Generation Anxious, click to view more" />
+                    </a>
+				</div>
+			</div>											
+						<div class="portfolio illustration featured" data-cat="illustration,featured">
+				<div class="portfolio-wrapper">
+                    <a data-target="#portfolioModal39" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+					<img src="assets/gallery/thumb/39.jpg" class="grayscale" alt="Rogue, click to view more" />
+
+                    </a>
+                    
+				</div>
+			</div>
+						<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal40" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/40.jpg" class="grayscale" alt="One Generation, click to view more" />
+                    </a>
+				</div>
+			</div>
+						<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal42" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/42.jpg" class="grayscale" alt="Magnetism Pitch, click to view more" />
+                    </a>
+				</div>
+			</div>
+									
+		</div>
+            </div>
+		
+	</div>
+    </div><!-- container -->
+	<!-- =================================================================================================
+	                    PORTFOLIO MODALS
+==========================================================================================================
+-->
+<div class="animatedParent animateOnce">
+<!-- Portfolio Modal 1 -->
+  
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/1.jpg" alt="">
+                        <div class="list-inline">
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> October 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 9 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop, Paintstorm Pro</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>RESTART<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">This piece was created solely for the purpose of my portfolio's intro page. This was because I needed to make each feature of this piece on its own layer so that I could later create a multi-layered parallax for my intro page. If I didn't have a powercut, it would have been done in less than 9 hours.</p>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/2.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> June 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 30+ Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                       
+                        <h3>NIGHT HUNTER<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Warbird Replicas is an outstanding company creating top quality handmade remote controlled aircraft of the World War era. My client contacted me regarding an issue of lacking promotional material for the lesser known aircraft. In order to gather interest for these aircraft my client wished to have some dynamic artwork for the aircraft, in this case, the Ju88.
+                        <br>When my client sent me a photo of the desired angle and proportions, I created a few sketches to be sent to him to see which one he prefers. This will allow the client to get a feel of what the final product would look like near the end. Each of these drafts are sent to the client in order to keep close communications. This is one of my absolute favourite pieces from my aircraft artwork, due to the dark but angellic atmoshpere of the presence of the Ju88, the night bomber.</p>
+                        <h4>DRAFTS</h4>
+                          <div class="row">
+                            <div class="drafts">
+                              <div class="col-lg-6">
+                                                   <div class="draftsimg">
+                                                       <img class="img-responsive" src="assets/gallery/prev/2-1.gif" alt="draft 1"></div>
+                                                    <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/2-2.PNG" alt="draft 2"></div>
+                              </div>
+                              <div class="col-lg-6">
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/2-3.png" alt="draft 3">
+                                  </div>                     <div class="draftsimg">
+                               <img class="img-responsive" src="assets/gallery/prev/2-4.PNG" alt="draft 4">
+                                  </div>
+                               
+                              </div>
+                              </div>
+                           </div>
+                           <p class="modaltext">Like all of my art, I create drafts according to what my client describes, creating short and quick designs of what I can follow through with. This not only helps my brain storming, but also gives a good idea of what the piece may look like once finished, without losing time.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/3.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> December 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 9 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>ALPHA &amp; OMEGA<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">For my Photography module at University, I had to create a poster using only photomanipulation tools.<br> I created this piece using photos I have taken from Austria, France (The building) and Duxford Hangar along with a photo of a Peacock, crocodile and a bearded dragon to create the dinosaur. (Have you noticed I like dinosaurs?) I used a range of layer blend modes and brushes, as well as my wacom tablet to cut around the images with a very think but soft eraser to keep edges fine and soft.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/4.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> September 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 8 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Copic Markers</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>THE LAST INTERCEPTOR<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">This started out as a quick practice sketch while I was sitting in the middle of a field. I wanted to practice drawing architectural figures, that involves getting every line perfect, which is a very tough task.<br>
+                        However it ended up becoming something I was eager to finish, and for the first time, use my copic markers. </p>
+                        <h4>REFERENCE</h4>
+                        <div class="drafts">
+                            <img class="img-responsive img-centered" src="http://www.daveswarbirds.com/Nippon/photos/J7W1_Shiden_.jpg" alt="reference">
+                        </div>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/5.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> June 2014</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 8 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>FIRE, WATER, EARTH, AIR<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">For my AS Exam in Art and Design, I was given the theme of 'Fire, Water, Earth, Air'. With such a broad theme, I researched my idea of how all 4 elements are 'working together' to stop the human race from further destroying the Earth with their developments.
+Aircraft were a huge step to the future of travel and later, war, as humans once again fight for their own power and ‘for peace’. As soon as people took to the skies, the power of the elements amplify. The winds get stronger as aircraft get greedy and take to higher skies and speeds, the rain damages their sight, the fire destroys the aircraft and the debris lifted up by the high speeds of winds can only make things worse.</p>
+
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/6.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> June 2014</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 8 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>METAMORPHOSIS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">In this project for my Art and Design A levels, I created a digital piece showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. This piece in particular was a commission for a friend who desired an image that was bright and overdramatic.</p>
+                        <h4>DRAFTS</h4>
+                        <div class="drafts">
+                            <img class="img-responsive img-centered" src="assets/gallery/prev/6.jpg" alt="drafts">
+                        </div>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/7.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> July 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Fine Liner</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>RAPTOR<br>CONCEPTS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Some practice sketching on drawing raptors in my own style in preparation for creating a 3D model in Zbrush in the future.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/8.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> July 2016</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Fine Liner and pencil</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>BAD TRIP<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An experimental fineliner and colour pencil drawing of a fox for a friend. The black blotches represent the vision defects that people tend to get when they are dreaming.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/9.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> March 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i>Oil Pastel</div>
+                            </div>
+                       
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>WE ARE OBLIVIOUS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A vibrant oil pastel drawing of a dragonfly, done as part of my A2 Art &amp; Design coursework.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+               <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/10.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-calendar" aria-hidden="true"></i> March 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-paint-brush" aria-hidden="true"></i>Oil Pastel</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>CONTRAST POSTER<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">For my A2 Media coursework, I created a poster which would be for the band's live tour. It features a graphical montage of different drawings and imagery to establish action and conflict in the mind of the subject. It encorporates photomanipulation and digital painting. The design was inspired by Pendulum's 'Immersion' album art.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/11.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> January 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 10+ Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-pencil" aria-hidden="true"></i>Pencil</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>POLAR OPPOSITES<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An A2 sized pencil drawing. It was as frustrating as it sounds. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/12.jpg" alt="">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> December 2014</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>EVOLUTION<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A quick painting of an evolved insect looking at its previous ancestor. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects.<br><br> In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 14 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/14.jpg" alt="Falling Sun">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2014</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Paint Tool SAI</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>FALLING SUN<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A rather fast painting of an aircraft flying towards the horizon, done with the help of a painted model Sabre aircraft from my grandfather.</p>
+
+                                                                              <h4>DRAFTS</h4>
+                            <div class="drafts">
+                              <div class="col-lg-6">
+                                                   <div class="draftsimg">
+                                                       <img class="img-responsive" src="assets/gallery/prev/14-1.png" alt="Draft 1"></div>
+                                                    <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/14-2.png" alt="Draft 2"></div>
+                                                        <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/14-3.png" alt="Draft 3"></div>
+                              </div>
+                              <div class="col-lg-6">
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/14-4.png" alt="Draft 4">
+                                  </div>                     <div class="draftsimg">
+                               <img class="img-responsive" src="assets/gallery/prev/14-5.png" alt="Draft 5">
+                                  </div>                    <div class="draftsimg">
+                                  <img class="img-responsive" src="assets/gallery/prev/14-6.jpg" alt="Draft 6">
+                                  </div>
+                                
+                               
+                              </div>
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 15 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/15.jpg" alt="Nusiness Card">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                       
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>BUSINESS CARD<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A business card design for a graphic design company for my coursework at University.</p>
+
+                                                                              <h4>DRAFTS</h4>
+                            <div class="drafts"><div class="container">
+                                                       <img class="img-responsive img-centered" src="assets/gallery/prev/15.png" alt="Draft"></div>
+                        </div>
+                                
+                               
+                              </div>
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                  <!-- Portfolio Modal 16 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/16.jpg" alt="Ju87">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> March 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>CALLIGRAM<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A calligram of a Ju87 night bomber on a dive, with text from an interview with a pilot and civillian about their PTSD caused by the sounds of the Ju87.</p>
+                                
+                               
+                              </div>
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                  <!-- Portfolio Modal 17 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/17.jpg" alt="Festival Poster">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-calendar" aria-hidden="true"></i> April 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-clock-o" aria-hidden="true"></i> 8 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>POSTER DESIGN<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A poster for a made-up air show in Bournemouth. I wanted to create a mix between the traditional poster effect, and the watercolour effect to create a traditionally-drawn looking poster.</p>
+                                
+                               
+
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+            
+               <!-- Portfolio Modal 18 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/18.jpg" alt="Instagram Promo">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> October 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i>1 Hour</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>INSTAGRAM PROMO<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A promotional graphic for Instagram accounts created for Ghost Partnership, a company that aims to give students good deals on stores around Canterbury.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+            <!-- Portfolio Modal 19 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/19.jpg" alt="Instagram Promo">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> October 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Hour</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>INSTAGRAM PROMO<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A promotional graphic for Instagram accounts created for Ghost Partnership, a company that aims to give students good deals on stores around Canterbury.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 20 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/20.jpg" alt="Rough Tempo Artist Design">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> December 2015</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>Rough Tempo Artist Design<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A DJ set poster for Rough Tempo for my brother.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+            <!-- Portfolio Modal 21 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/21.jpg" alt="Survival">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> January 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-pencil" aria-hidden="true"></i> Prismacolour Pencil</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>SURVIVAL<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A raptor study applied to my style, drawn from reference, using prismacolour pencils.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <!-- Portfolio Modal 22 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/22.jpg" alt="Survival">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> January 2015</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Hour</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Watercolour &amp; Fineliner</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>DANGER CLOSE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A still-life study of a dead hornet, combined with a very rough watercolour style using the colour connotations of a hornet. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects.<br><br> In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Portfolio Modal 23 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal23" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/23.jpg" alt="No More">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> August 2014</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Hour</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Watercolour &amp; Fineliner</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>NO MORE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A watercolour painting in the style of another artist. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects.<br><br> In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+            <!-- Portfolio Modal 24 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal24" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/24.jpg" alt="The Eye">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2014</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>THE EYE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A Photoshop drawing of a dogfight in the middle of a hurricane. This is part of my A Level project, given the theme of 'Fire, Water, Earth, Air'. With such a broad theme, I researched my idea of how all 4 elements are 'working together' to stop the human race from further destroying the Earth with their developments.
+Aircraft were a huge step to the future of travel and later, war, as humans once again fight for their own power and ‘for peace’. As soon as people took to the skies, the power of the elements amplify. The winds get stronger as aircraft get greedy and take to higher skies and speeds, the rain damages their sight, the fire destroys the aircraft and the debris lifted up by the high speeds of winds can only make things worse..</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 25 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal25" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/26.jpg" alt="Stale Dystopia">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> May 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-pencil" aria-hidden="true"></i> Pencil &amp; Fineliner</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>STALE DYSTOPIA<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A drawing of a bearded dragon being confined in a box, unknowing of the world around it.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Portfolio Modal 27 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal27" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/28.jpg" alt="CD Front Cover">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> February 2015</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 Hours</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>CD FRONT COVER<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">The front cover of a CD case design for my A2 Media Studies coursework, which encorporates photomanipulation and digital painting. The design was inspired by Pendulum's 'Immersion' album art.</p>
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- PORTFOLIO MODAL 26 -->      
+    <div class="portfolio-modal modal fade" id="portfolioModal26" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/27.jpg" alt="Meant To Be">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> February 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 2 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>MEANT TO BE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A drawing, quite similar to the commissioned version, of a dragonfly 'evolving' out of the water. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. </p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Portfolio Modal 28 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal28" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/29.jpg" alt="CD inset 1">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> February 2015</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Hour</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>CD INSET DESIGN ONE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">The first inset case design for my A2 Media Studies coursework, which encorporates photomanipulation and digital painting. The design was inspired by Pendulum's 'Immersion' album art.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- Portfolio Modal 29 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal29" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/30.jpg" alt="CD inset 2">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> March 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 5 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>CD INSET<br>DESIGN TWO<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">The second inset CD case design for my A2 Media Studies coursework, which encorporates photomanipulation and digital painting. The design was inspired by Pendulum's 'Immersion' album art.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 30 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal30" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/31.jpg" alt="CD back cover">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2015</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4 portrait">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>CD BACK COVER<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">The back cover of a CD case design for my A2 Media Studies coursework, which encorporates photomanipulation and digital painting. The design was inspired by Pendulum's 'Immersion' album art.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 31 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/32.jpg" alt="Breathe">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> August 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Watercolour</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Breathe<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A small watercolour painting of a character design for an online contest.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 32 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                   <div class="col-lg-8"><a href="http://www.magnetismgame.co.uk/" target="_blank"><img class="img-responsive" src="assets/gallery/33.png" alt="Magnetism Game"></a>
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> May 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 5 Days</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="http://www.magnetismgame.co.uk" target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-camera-retro" aria-hidden="true"></i>--> View Website</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Magnetism<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A promotional website designed and created for my third year project, using Foundation 6. I have partnered with Developer and Musician Milan Maru to create this game in my third year. Definitely check this project out, as I am very proud of it! </p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 33 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe src="https://drive.google.com/file/d/0B8bhpcAIzJ2XMTg1OGNZeTBkcE0/preview" width="640" height="480"></iframe></div>
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> May 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 30+ Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Maya, Mudbox</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>3D Show reel<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A 3D and visual FX show reel showing all of my 3D work in first year of University, produced in Autodesk Maya and Mudbox.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 34 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal34" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"><a href="http://www.anniesfolkestone.co.uk" target="_blank"><img class="img-responsive" src="assets/gallery/35.png" alt="Annies at Folkestone"></a>
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> March 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-wordpress" aria-hidden="true"></i> WordPress</div>
+                               </div>
+                            <div class="col-lg-4">
+                                <a href="http://www.anniesfolkestone.co.uk" target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-camera-retro" aria-hidden="true"></i>--> View Website</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Annie's at Folkestone<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Annie's at Folkestone is a new and small local business with the goal of delivering quality floral arrangements in the local are at Folkestone. Because of the small audience, my client needed a small, simple website that she can use as a tool to show off her creations while allowing her customers to order online. This provided her a way to organize her customers' orders as well. <br>
+                        I created a simple but proffesional website that showcased the best of Annie's at Folkestone's qualities. Affordable and home-grown flowers that can be delivered to your doorstep or custom arrangements for special occasions.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 35 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal35" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <a href="http://www.theimportanceofplay.esy.es/" target="_blank"><img class="img-responsive" src="assets/gallery/40.png" alt="Photojournalism"></a>
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> January 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-wordpress" aria-hidden="true"></i> WordPress</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="http://www.theimportanceofplay.esy.es/" target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-plus" id="web" aria-hidden="true"></i>--> View Website</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>The importance of Play<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A small experimental WordPress portfolio for the experimental artist Tyler King. The idea that needed to be conveyed was the sense of an aged website style while still pertaining to modern website design and features. </p>
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 36 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal36" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/35.jpg" alt="Portrait">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 15 hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Maya, Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Wheelbarrow Model<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An accurate model of a Wheelbarrow I created from scratch including UVs and textures. For my assignment, I needed to create a model which will fit seamlessly within the scene. I also needed to make accurate lighting and positioned the camera correctly so that the model will be set with the correct perspective.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 37 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal37" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/37.jpg" alt="Takeoff">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-calendar" aria-hidden="true"></i> November 2015</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-clock-o" aria-hidden="true"></i> 1 Hour</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli portrait"><i class="fa fa-paint-brush" aria-hidden="true"></i> Watercolour &amp; Fineliner</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>Takeoff<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A watercolour and fineliner painting of a dragonfly that was taking off of my hand. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 38 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal38" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe src="https://drive.google.com/file/d/0Bwt34-piFHhCOU5OUy1zRURqbE0/preview" width="640" height="480"></iframe></div><!-- ADD WITH FILM-->
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> December 2016</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 16 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Sony HXR Film Camera</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>GENERATION ANXIOUS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A short documentary as part of my course at University. I had the role of assistant director/producer, organizing and setting up shots for the film.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+<!-- Portfolio Modal 39 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal39" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/39.jpg" alt="Rogue">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> January 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-paint-brush" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>ROGUE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">I was commissioned by a writer to create a mythical Orc based on the World of Warcraft series. He requested a design that would aid him to fully realize his character and to give him a foundation on which to build upon his fiction. Additionally the art would have to encompass the character's nature. This was done by setting the character in a landscape that has importance to the Orc.<br>
+                        This was a big project for me, as an artist I don't feel very confident in my skills as a landscape artist. I wanted to utilize the style of a concept artist, which they would normally focus on atmosphere and depth rather than detail into the landscape so that it speeds up the design process. I prefer this style over highly detailed landscapes because I feel that the style outweighs any need for extreme detail which the viewer may or may not appreciate. Plus, less time taken on the landscape as well would allow me more time to focus on the detail of the Orc, which the art focuses on. Unfortunately, this style takes a lot of research and practice, which took a lot of my time to learn. Not all of the techniques I've learnt are shown here, because I learnt and understood the techniques better afterwards.<br>
+                        So, throughout this painting, I have gained a lot of knowledge and practice to move on to bigger things and hopefully speed up the process.       
+                        The commissioner and I communicated regularly, sending previews of the sketches, landscape thumbnails and progress with the painting of the orc. The commissioner has a huge interest in physiology and anatomy which helped me to understand the anatomy of an orc which is slightly different to that of a regular human. <br>
+                        Approaching the end, I created many layers with pure lighting and depth adjustments where I will add debris, flares and bokeh effects to create varying areas of focus.  </p>
+                                                   </div>
+                        <h4>DRAFTS</h4>
+                                                        <div class="row">
+                            <div class="drafts">
+                              <div class="col-lg-4">
+                                                   <div class="draftsimg">
+                                                       <img class="img-responsive" src="assets/gallery/prev/39-1.jpg" alt="draft 1"></div>
+                                                    <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-2.jpg" alt="draft 2"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-3.jpg" alt="draft 3"></div>
+                                </div>
+
+                              <div class="col-lg-4"><div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-4.jpg" alt="draft 4"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-5.jpg" alt="draft 5"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-6.jpg" alt="draft 6"></div>
+                                                        
+                                </div>
+                                <div class="col-lg-4">
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-7.jpg" alt="draft 7">
+                                  </div>                    
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-8.jpg" alt="draft 8">
+                                  </div>
+                                                                                     <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-9.jpg" alt="draft 9">
+                                  </div>
+                                  
+                               
+                                </div>
+                              </div>
+                           </div>        
+                               
+ 
+                              </div>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 40 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal40" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ri69yKpcY8Q?color=white&showinfo=0" frameborder="0" allowfullscreen></iframe></div><!-- ADD WITH FILM-->
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> After Effects &amp; Premiere</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>One Generation<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An experimental film inspired by the works of Paul Bush's Morphism technique, exploring the themes of a single generation growing up to be tossed aside, much like old film technology. I worked in a group of 3, developing the idea and the final project in After Effects.</p>
+                                
+                               
+ 
+                              </div>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 41 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal41" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                   <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/38.jpg" alt="Esfir">
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> May 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 5 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Photoshop</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Esfir<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Concept art for my third year game project, about to be produced in Maya and ZBrush. It is a possible playable character in this game.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 42 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal42" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/06SLTe4oTFM?color=white&showinfo=0" frameborder="0" allowfullscreen></iframe></div><!-- ADD WITH FILM-->
+                        
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> May 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 7 Hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> After Effects &amp; Premiere</div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Magnetism Project Pitch<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Our final pitch for our final year project, co-produced with Developer and Musician Milan Maru. This features our own lighting set-up and detailed animation, voice-equalizing and original soundtrack.</p>
+                                
+                               
+ 
+                              </div>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+   
+   <!--==================================================================================
+   END OF BIG GALLERY
+==========================================================================================--> 
+   
+   
+   
+   
+
+       
+<!--       </div>-->
+       
+    
+<!--======================================================
+    SKILLS
+======================================================--> 
+<section>
+<!--<div class="section">-->
+<div id="skills" class="par">
+     <div class="animatedParent animateOnce">
+   
+    <a id="skillsanch" class="smooth"></a>
+    <ul id="scene2" class="scene">
+        <li class="layer" data-depth="0.05"><div id="bg"></div></li>
+        <li class="layer" data-depth="0.30"><div id="waterfallspray"></div></li>
+        <li class="layer" data-depth="0.15"><div id="sunrays"></div></li>
+        <li class="layer" data-depth="0.08"><div id="waterfall"></div></li>
+            
+        <li class="layer" data-depth="0.10"><div id="waterfallmist"></div></li>
+        <li class="layer" data-depth="0.12"><div id="bottomcavespires"></div></li>
+        <li class="layer" data-depth="0.20"><div id="bottomrocks"></div></li>
+        <li class="layer" data-depth="0.30"><div id="toprocks"></div></li>
+        <li class="layer" data-depth="0.4"><div id="bottomparticle"></div>        
+        <li class="layer" data-depth="1.5"><div id="topparticle"></div></li>
+        <li class="layer" data-depth="1"><div id="grass"></div></li>
+        <li class="layer" data-depth="0"><div id="top"></div></li>
+        <li class="layer" data-depth="0"><div class="paranoise2"></div></li>
+        <li class="layer" data-depth="0"><h1 class="skills">SKILLS.</h1></li>
+
+            </ul>
+
+    <div class="container"><div class="skillsbox animated growIn"><p id="skillstext">I have a wide range of digital software skills which I gained from education and as hobbies. For example, I have made 2 films which involved working as a group and networking with individuals that would want to take part in our digital film making process. This also enabled me to learn Adobe After Effects and Premiere fast as we were producing the film at the same time. <br> But above all, my biggest hobby is drawing concepts and designs (as you can tell) and this often transcends across all of my works. If you feel that you need a creator's approach to any of your works, just let me know <a data-scroll href="#contactanch"><span class="highlight">below.</span></p></a></div></div>
+    </div>
+    </div>
+    </section>
+
+    <div class="clearfix"></div>
+<!--======================================================
+    CONTACT
+======================================================--> 
+
+<div class="section animatedParent animateOnce">
+
+<div id="contact">
+    <div class="paranoise3"> 
+
+    <a id="contactanch" class="smooth"></a>
+
+
+        <H1 class="animated fadeIn"><span class="underline">LET<span class="highlight">'</span>S HAVE A CHAT<span class="highlight">.</span></span></H1>
+
+
+<div id="form-main" class="par animated fadeIn">
+  <div class="container">
+    <form class="form" id="form1" action="mailto:nicoleramsay@hotmail.co.uk?Subject=PortfolioViewer" method="post" enctype="text/plain">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+
+    </form>
+
+    </div>
+<div class="container-fluid">
+
+                 <footer>
+                     <a href="https://www.facebook.com/nicole.ramsay2"><div class="fa fa-facebook fa-4x"></div></a>
+            <a href="https://www.instagram.com/nicoliousramsay/?hl=en"><div class="fa fa-instagram fa-4x"></div></a>
+            <a href="https://uk.linkedin.com/in/nicole-ramsay-0a1514123"><div class="fa fa-linkedin fa-4x"></div></a>
+    </footer>
+ 
+
+    </div>
+        </div>
+        
+        
+        
+  
+    </div>
+    </div>
+
+  
+</div> 
+    </div>
+
+  <!-- ============================ SCRIPTS ============================ -->  
+   <!-- JQUERY -->
+<script>
+    $("#parabg").addClass("load");
+    $("#flowers").addClass("load");
+    $("#dinomount").addClass("load");
+    $("#secondmountain").addClass("load");
+    $("#thirdmountain").addClass("load");
+    $("#treestump").addClass("load");
+    </script>
+    <script src="js/jquery-smooth-scroll.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+
+    <!--BOOTSTRAP-->  
+<script src="js/bootstrap.min.js"></script>
+
+    <!-- PARALLAX -->
+    <script src="js/parallax.js"></script>
+	<script>
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+        
+	</script>
+		<script>
+	var scene = document.getElementById('scene2');
+	var parallax = new Parallax(scene);
+            
+	</script>
+	
+<script>
+	$(document).ready(function($){
+          var parPosition = [];
+        $('.par').each(function() {
+            parPosition.push($(this).offset().top);
+        });
+        
+		$('a').click(function(){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 500);
+			return false;
+		});
+        
+        	$('.vNav ul li a').click(function () {
+			$('.vNav ul li a').removeClass('active');
+				$(this).addClass('active');
+		}); 
+        
+       $('.vNav a').hover(function() {
+           $(this).find('.label').show();
+           }, function() {
+           $(this).find('.label').hide();
+       });
+        
+           $(document).scroll(function(){
+        var position = $(document).scrollTop(),
+                index; 
+                for (var i=0; i<parPosition.length; i++) {
+                if (position <= parPosition[i]) {
+                    index = i;
+                    break;
+                }
+            }
+      $('.vNav ul li a').removeClass('active');
+            $('.vNav ul li a:eq('+index+')').addClass('active');
+        });
+        
+        	$('.vNav ul li a').click(function () {
+			$('.vNav ul li a').removeClass('active');
+				$(this).addClass('active');
+		});   
+	});
+    
+</script>
+
+	
+
+
+<script src="js/animatedheadline.js"></script>
+<!--KEEP CONTENT STILL WHEN MODAL OPEN-->
+<!--
+    <script>
+        var scrollPosition = 0;
+
+        $('#portfolioModal1').bind('show.bs.modal', function () {
+//          $("html").css("margin-right", "-15px");
+//            alert(2);
+            scrollPosition = $(document).scrollTop();
+        });
+
+        $('#portfolioModal1').bind('hidden.bs.modal', function () {
+//          $("html").css("margin-right", "0px");
+//            alert(1);
+            $(document).scrollTop(scrollPosition);
+        });
+    </script>
+-->
+    
+    <!-- SCROLL ARROW-->
+    <script>
+    //this is where we apply opacity to the arrow
+$(window).scroll( function(){
+
+  //get scroll position
+  var topWindow = $(window).scrollTop();
+  //multipl by 1.5 so the arrow will become transparent half-way up the page
+  var topWindow = topWindow * 1.5;
+  
+  //get height of window
+  var windowHeight = $(window).height();
+      
+  //set position as percentage of how far the user has scrolled 
+  var position = topWindow / windowHeight;
+  //invert the percentage
+  position = 1 - position;
+
+  //define arrow opacity as based on how far up the page the user has scrolled
+  //no scrolling = 1, half-way up the page = 0
+  $('.arrow-wrap').css('opacity', position);
+
+});
+
+
+
+
+
+
+//Code stolen from css-tricks for smooth scrolling:
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+<!--
+=================================
+        CREDITS
+=================================
+
+DOT NAVIGATION
+http://jsfiddle.net/carincamen/ram0Ly92/
+
+MOBILE NAV
+http://bootsnipp.com/snippets/featured/mobile-nav-bar
+
+PARALLAX
+http://matthew.wagerfield.com/parallax/
+
+ANIMATED HEADLINE FOR ABOUT
+https://codyhouse.co/demo/animated-headlines/
+
+ANIMATE.IT
+http://jackonthe.net/css3animateit/
+
+SMOOTH SCROLL
+https://github.com/kswedberg/jquery-smooth-scroll
+
+HINT ARROW
+http://codepen.io/robooneus/pen/Aclqr
+
+MIXITUP GALLERY
+https://www.kunkalabs.com/mixitup/ AND http://stackoverflow.com/questions/22312520/using-mixitup-plugin-in-image-gallery
+
+BOOTSTRAP MODAL HTML
+https://blackrockdigital.github.io/startbootstrap-agency/
+
+ICONS BY FONTAWESOME
+http://fontawesome.io/
+
+CONTACT FORM
+https://codepen.io/rexkirby/pen/ekvtL
+
+-->
+
+
+
+    
+</body>
+</html>
