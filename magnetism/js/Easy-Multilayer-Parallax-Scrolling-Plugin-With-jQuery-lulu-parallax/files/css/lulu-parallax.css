@@ -1,0 +1,35 @@
+/*
+ * Lulu Parallax v1.0
+ *
+ * Copyright 2016 Carlos Ruiz / carlosruiz.me
+ */
+
+.parallax-group {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+/*
+ * You will want to give each group container a height value in your own CSS
+ */
+.parallax-group .parallax-container {
+	width: 100%;
+	position: absolute;
+}
+.parallax-group .parallax-container.background {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-group .parallax-container.foreground.with,
+.parallax-group .parallax-container.background.against {
+	top: 0;
+}
+.parallax-group .parallax-container.background.with,
+.parallax-group .parallax-container.foreground.against {
+	bottom: 0;
+}
+/*
+ * Use the background class when you want something to move in and out of the group window
+ *
+ * You will want to give each background container a height value that is greater than the group height
+ */

@@ -1,0 +1,359 @@
+/*
+TODO
+add rest of content.
+-center tabs somehow
+
+
+
+/*BASIC CUSTOMIZATION*/
+canvas {
+  display: block;
+}
+.particles-js {
+
+  z-index: -50;
+}
+
+body {
+    background-color: #2b2637;
+}
+
+#content {
+    background-color: #2b2637;
+}
+.section2 {
+    background-color: #642031;
+}
+
+@font-face {
+    font-family: Copperplate;
+    src: url(../fonts/Copperplate.ttf)
+}
+
+h1 {
+    font-family: Copperplate;
+    text-align: center;
+    letter-spacing: 30px;
+    color: white;
+}
+@media screen and (max-width: 950px) {
+    h1 {
+        letter-spacing: normal;
+
+
+}
+}
+
+h3 {
+    font-family: Copperplate;
+    color: white;
+    letter-spacing: 10px;
+}
+h4 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 1.2em;
+    letter-spacing: 5px;
+}
+
+.title {
+    margin: 100px;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+#title {
+    line-height: 0.7;
+    
+}
+.clickable {
+    cursor: pointer;
+}
+span {
+    font-size: 0.5em;
+    letter-spacing: 30px;
+}
+/*NAVIGATION*/
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 2;
+    font-family: Copperplate;
+}
+
+.topnav a:hover {
+    background-color: #457B9D;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+      background-color: #642031;
+  }
+}
+.icon {
+    float: left;
+}
+
+.bg {
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  background: #642031;
+  width: 100%;
+  height: 50px;
+  opacity: 0;
+}
+
+.show {
+  opacity: 0.8;
+}
+
+.transition {    
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+/*PARALLAXHEADER*/
+
+#hero{
+  height: 1148px;
+    background-size: cover;
+      overflow: hidden;
+  position: relative;
+
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1148px;
+  position: fixed;
+  z-index: -1;
+}
+#hero, .layer {
+  min-height: 800px;
+}
+
+.layer {
+    background-position: center;
+    background-size: auto;
+}
+
+.layer-0 {
+/*    background-image: url(../img/parallax/title.png);*/
+    right: 300px;
+    margin: 0 auto;
+    top: 600px;
+
+}
+#title {
+        font-size: 4em;
+}
+
+@media screen and (max-width: 950px) {
+    .layer-0 {
+        right: 0;
+        top:300px;
+
+
+}
+    #title {
+        font-size: 2em;
+        letter-spacing: 20px;
+    }
+}
+.layer-1 {
+    background-image: url(../img/parallax/1stlayer.png);
+
+}
+.layer-2 {
+    background-image: url(../img/parallax/2ndlayer.png);
+position: fixed;
+    bottom: -280px;
+      background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+    z-index: 0;
+
+}
+
+@media screen and (max-height: 900px) {
+    .layer-2 {
+        display: none;
+}
+}
+.layer-3 {
+    background-image: url(../img/parallax/3rdlayer.png);
+
+    
+
+}
+
+.layer-4 {
+    background-image: url(../img/parallax/4thlayer.png);
+
+}
+.layer-5 {
+    background-image: url(../img/parallax/5thlayer.png);
+
+}
+.layer-7 {
+    background-image: url(../img/parallax/7thlayer.png);
+
+}
+.layer-8 {
+    background-image: url(../img/parallax/8thlayer.png);
+
+}
+.layer-9 {
+    background-image: url(../img/parallax/9thlayerbg.jpg);
+}
+
+
+
+
+/* ABOUT TABS */
+
+#about {
+   background-attachment: fixed;
+background-image: url(../img/background1.jpg);
+
+}
+
+/*
+.overlay {
+    background-color: #2b2637;
+    opacity: 0.8;
+}
+*/
+.tabs-title a {
+  color: white;
+    font-family: Copperplate;
+}
+
+.tabs-title a:hover{
+    background-color: #457B9D;
+    color: white;
+    border-radius: 5px;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+      background: #457B9D;
+      color: white;
+    border-radius: 5px;
+      }
+.tabs {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    background: #642031;
+    border: none;
+    border-radius: 5px;
+}
+
+.tabs-content {
+    background: none;
+    border: none;
+    padding-bottom: 100px;
+}
+
+.aboutdesc {
+    text-align: left;
+    color: white;
+}
+
+/*THE TEAM ACCORDION PANEL*/
+
+img {
+        -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);	
+}
+.gallery img:hover {
+
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+
+          transform: scale3d(1.1, 1.1, 1);
+
+}
+.accordion img:hover {
+      -webkit-transform: scale3d(1.1, 1.1, 1);
+
+          transform: scale3d(1.1, 1.1, 1);
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    background-color: #2b2637;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* PARALLAX HEADER */
+.parallaxdivider {
+width: 100vw;
+    height: 300px;
+}
+
+footer {
+    
+    padding: 10px;
+}
+footer p {
+    font-size: 0.8em;
+}

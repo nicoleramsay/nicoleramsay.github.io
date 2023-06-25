@@ -1,0 +1,71 @@
+
+
+/* PARALLAX */
+
+.keyart, .keyart_layer {
+	height: 1000px;
+}
+
+#parallax {
+	display: none;
+}
+#nonparallax {
+	display: block;
+}
+
+#nonparallax {
+	background-image: url('../images/keyart-mobile.jpg'); /*GET MOBILE IMAGE */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.keyart_layer.parallax {
+	position: fixed;
+}
+	#keyart-0 {
+		background-image: url('../img/parallax/title.png');
+	}
+	#keyart-1 {
+		background-image: url('../img/parallax/1stlayer.png');
+	}
+	#keyart-2 {
+		background-image: url('../img/parallax/2ndlayer.png');
+	}
+	#keyart-3 {
+		background-image: url('../img/parallax/3rdlayer.png');
+	}
+	#keyart-4 {
+		background-image: url('../img/parallax/4thlayer.png');
+	}
+	#keyart-5 {
+		background-image: url('../img/parallax/5thlayer.png');
+	}
+	#keyart-6 {
+		background-image: url('../img/parallax/6thlayer.png');
+}
+        
+	#keyart-7 {
+		background-image: url('../img/parallax/7thlayer.png');
+	}
+	#keyart-8 {
+		background-image: url('../img/parallax/8thlayer.png');
+	}	#keyart-9 {
+		background-image: url('../img/parallax/9thlayerbg.png');
+	}
+	#keyart-scrim {
+		background-color: #ffaf00;
+		opacity: 0;
+	}
