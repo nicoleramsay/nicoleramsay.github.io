@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- default scale -->
+    <title>Nicole Ramsay | Multimedia Artist and Web Designer</title> 
+    <meta name="description" content="An artistic portfolio featuring my best works of artwork and design, to show potential web design employers. Also features what the power of energy drinks can do to me."> <!-- description of website-->
+    <meta name="keywords" content="portfolio,digital media,art,concept,design,graphic design,Nicole Ramsay"> <!-- keywords for google search -->
+    <meta name="author" content="Nicole Ramsay"> <!-- author of content-->
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
+<link href="css/bootstrap3.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/animations.css">
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+
+           <link href="css/agency.min.css" rel="stylesheet"> 
+            <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/sketchfab.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--    <script src="js/jquery.parallax.js"></script>-->
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.featured'  
+      		}     
+				});								
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+<!--	<script src="js/modernizr-custom.js"></script>-->
+    
+    <style>
+
+        .portfolio {
+            border: 4px solid black;
+            border-radius: 4px;
+        }
+        
+    </style>
+
+    </head>
+    
+<body>
+  
+<!--======================================================
+    HOME
+======================================================-->
+
+<!--======================================================
+    NAVIGATION
+======================================================-->  
+
+<div class="vNav">
+       <ul class="vNav">
+            <li>
+                <a data-scroll href="#home">
+                    <div class="label">Home</div>
+                </a>
+            </li>
+            <li>
+                <a data-scroll href="#about">
+                    <div class="label">About</div>
+                </a>
+            </li>
+            <li>
+                <a data-scroll href="#work">
+                    <div class="label">Work</div>
+                </a>
+            </li>
+                <li>
+                <a data-scroll href="#contact">
+                    <div class="label">Contact</div>
+                </a>
+            </li>
+     </ul>
+    </div>
+
+<!--
+==================
+MOBILE NAV
+==================
+-->
+    <nav class="navbar navbar-inverse navbar-fixed-top animate">
+		<div class="navbar-more">
+
+		</div>
+		<div class="container">
+
+			<ul class="nav navbar-nav navbar-right mobile-bar">
+				<li>
+					<a data-scroll href="#homeanch">
+						<span class="menu-icon fa fa-home"></span>
+						Home
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#aboutanch">
+						<span class="menu-icon fa fa-user"></span>
+						About
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#workanch">
+						<span class="menu-icon fa fa-briefcase"></span>
+						Work
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#skillsanch">
+						<span class="menu-icon fa fa-paint-brush"></span>						
+                        Skills
+					</a>
+				</li>
+				<li>
+					<a data-scroll href="#contactanch">
+						<span class="menu-icon fa fa-phone"></span>
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+<div id="home" class="par">
+       <a id="homeanch" class="smooth"></a>
+    <ul id="scene" class="scene">
+
+        <li class="layer" data-depth="0.05"><div id="parabg"></div></li>
+        <li class="layer" data-depth="0.10"><div id="thirdmountain"></div></li>
+        <li class="layer" data-depth="0.15"><div id="bottomcloud"></div></li>
+        <li class="layer" data-depth="0.50"><div id="secondmountain"></div></li>
+            <li class="layer" data-depth="0.25"><div id="birds"></div></li>
+        <li class="layer" data-depth="0.80"><div id="dinomount"></div></li>
+            <li class="layer" data-depth="0.4"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.06 213.94"><defs><style>.cls-1{fill:none;}</style></defs><title>signature2</title><path class="cls-1" d="M6.21,127.9" transform="translate(-5.92 -6.45)"/><path class="cls1" d="M5.92,151.1a406.26,406.26,0,0,1,35.21-107c6.4,24.45,6,50.09,5.39,75.35-0.3,11.88-.56,24.2,4.17,35.1,7.9-19.83,11.52-41,17.22-61.61s13.9-41.19,29-56.26" transform="translate(-5.92 -6.45)"/><path class="cls1" d="M67.08,14.08c0.49-2.53,3.13-4,5.55-4.85C85.16,4.68,99.3,6,111.71,10.89S135,23.82,145,32.68c13,11.55,25.53,26.92,23.65,44.21-1.65,15.22-14.74,27.4-29.38,31.92s-30.47,2.65-45.38-.84c0.63,6.89,1.37,14.09,5.17,19.88s11.71,9.5,17.85,6.31c1.36-.71,2.79-1.75,4.27-1.34s2.23,2.16,2.7,3.67l3.86,12.3a67.89,67.89,0,0,0,18.16-17.32,23.86,23.86,0,0,1-.09,16.38,49,49,0,0,0,20.06-.32L165,159.32a240.63,240.63,0,0,1,56-24.27c-2.85,8.26-9.09,14.82-15.16,21.11l-62,64.23c16-29,43.25-49.82,70.51-68.62C268.66,114.37,325.86,81.5,383,48.67" transform="translate(-5.92 -6.45)"/></svg></li>
+        <li class="layer" data-depth="0.30"><div id="topcloud"></div></li>
+        <li class="layer" data-depth="1"><div id="treestump"></div></li>
+        <li class="layer" data-depth="2"><div id="flowers"></div></li>
+        <li class="layer" data-depth="0"><div class="paranoise"></div></li>
+
+            </ul>
+    </div>
+<a class="arrow-wrap" href="#aboutanch">
+    <span class="arrow"></span></a>
+
+    
+    
+
+
+
+
+
+<!--======================================================
+    ABOUT
+======================================================-->
+
+
+<div id="about" class="par">
+    <a id="aboutanch" class="smooth"></a>
+    
+
+    <div class="animatedParent animateOnce container">
+    <section class="cd-intro">
+     <h1 class="cd-headline loading-bar">
+			<span id="anim">I AM</span><br>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">AN ARTIST</b>
+				<b>A DESIGNER</b>
+				<b>NICOLE RAMSAY</b></span>
+		</h1>
+    </section>
+    
+            <p class="animated fadeInUp"><span class="highlight">Hi.</span> I’m Nicole, and I am a Digital Arts graduate from the University of Kent. I am obsessed with the development and the journey of art and design that finalises the idea into a 
+                potential reality.<br><br>
+
+I spend a considerable amount of free time outside of work pushing my creative boundaries, experimenting with 
+different art styles and mediums - both in film, motion graphics, web design and paintings. I love doing something different each day!<br><br>
+
+
+                You can check out my work portfolio <a data-scroll href="#workanch"><span class="highlight">below.</span></p></a>
+    </div>
+    </div>
+<section class="animatedParent animateOnce">
+
+
+
+<div id="inner-content-div">
+<div id="work" class="par">
+
+    <a id="workanch" class="smooth"></a>
+
+<div class="container-fluid">
+  <div class="row"> <!-- change to container for regular style -->
+   <h2>WALL OF WORK.</h2>
+		<ul id="filters" class="list-group">
+<!--			<li><span class="filter active" data-filter=".illustration, .graphics, .traditional, .film, .photo">All</span></li>-->
+			<li class="list-group-item"><span class="filter" data-filter=".featured">Featured</span></li>
+            <li class="list-group-item"><span class="filter" data-filter=".film">Film and VFX</span></li>
+            <li class="list-group-item"><span class="filter" data-filter=".3D">3D Modelling</span></li>
+						<li class="list-group-item"><span class="filter" data-filter=".web">Web Design</span></li>
+            <li class="list-group-item"><span class="filter" data-filter=".graphics">Graphic Design</span></li>
+			<li class="list-group-item"><span class="filter" data-filter=".illustration">Digital Illustration</span></li>
+			<li class="list-group-item"><span class="filter" data-filter=".traditional">Traditional Art</span></li>
+			
+
+		</ul>
+		<div class="row">
+		 <div class="col-md-8 col-sm-offset-2">
+
+		<div id="portfoliolist">
+			
+
+			<div class="portfolio featured film" data-cat="featured,film">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal23" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/27.jpg" class="grayscale" alt="Computacenter showreel, click to view more" />
+                    </a>
+				</div>
+			</div>
+
+						<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal35" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/34.jpg" class="grayscale" alt="The Importance of Play, click to view more" />
+                    </a>
+				</div>
+			</div>				
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal2" class="portfolio-link" data-toggle="modal">	
+					<img src="assets/gallery/thumb/2.jpg" class="grayscale" alt="Night Hunter, click to view more" />
+                    </a>
+
+				</div>
+			</div>		
+			
+			<div class="portfolio graphics" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				                    <a data-target="#portfolioModal3" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/3.jpg" class="grayscale" alt="Alpha and Omega, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+                <a data-target="#portfolioModal4" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/4.jpg" class="grayscale" alt="Interceptor j7w1, click to view more" />
+                    </a>
+
+				</div>
+			</div>			
+			
+			<div class="portfolio illustration" data-cat="illustration,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal6" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/6.jpg" class="grayscale" alt="Metamorphosis, click to view more" />
+                    </a>
+				</div>
+			</div>	
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">	
+				<a data-target="#portfolioModal7" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/7.jpg" class="grayscale" alt="Raptor Concepts, click to view more" />
+                    </a>
+				</div>
+			</div>	
+			
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal8" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/8.jpg" class="grayscale" alt="Bad Trip" />
+                    </a>
+				</div>
+			</div>																																							
+			
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal9" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/9.jpg" class="grayscale" alt="We are Oblivious, click to view more" />
+                    </a>
+				</div>
+			</div>														
+			
+			<div class="portfolio graphics featured" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal10" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/10v2.jpg" class="grayscale" alt="Mental Health infographics, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal41" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/41.jpg" class="grayscale" alt="Esfir, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal11" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/11.jpg" class="grayscale" alt="Polar Opposites, click to view more" />
+                    </a>
+				</div>
+			</div>																	
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal12" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/12.jpg" class="grayscale" alt="Evolution" />
+                    </a>
+				</div>
+			</div>
+                        <div class="portfolio featured film" data-cat="featured,film">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal27" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/29.jpg" class="grayscale" alt="Mediatonic work culture, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio film featured" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal13" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/13.JPG" class="grayscale" alt="Industrial placement film, click to view more" />
+                    </a>
+				</div>
+			</div>
+			
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal14" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/14.jpg" class="grayscale" alt="Falling Sun, click to view more" />
+                    </a>
+				</div>
+			</div>							
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal15" class="portfolio-link" data-toggle="modal">							
+					<img src="assets/gallery/thumb/15.jpg" class="grayscale" alt="Business Card, click to view more" />
+                    </a>
+				</div>
+			</div>																								
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal16" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/16.jpg" class="grayscale" alt="Calligram, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+								<a data-target="#portfolioModal17" class="portfolio-link" data-toggle="modal">							
+					<img src="assets/gallery/thumb/17.jpg" class="grayscale" alt="Air Show poster, click to view more" />
+                    </a>
+				</div>
+			</div>																																																											
+
+			<div class="portfolio graphics" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal19" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/19.jpg" class="grayscale" alt="Instagram Promo Design 2, click to view more" />
+                    </a>
+				</div>
+			</div>			
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal21" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/20.jpg" class="grayscale" alt="Survival, click to view more" />
+                    </a>
+				</div>
+			</div>
+                <div class="portfolio 3D featured" data-cat="3D,featured">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal45" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/43.jpg" class="grayscale" alt="FYP Showcase, click to view more" />
+                    </a>
+				</div>
+			</div>
+
+                <div class="portfolio film 3D" data-cat="film,3D">
+				<div class="portfolio-wrapper">
+						<a data-target="#portfolioModal28" class="portfolio-link" data-toggle="modal">					
+					<img src="assets/gallery/thumb/44.jpg" class="grayscale" alt="Abstract graphic, click to view more" />
+                    </a>
+				</div>
+			</div>
+					<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal34" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/33.jpg" class="grayscale" alt="Annie's at Folkestone, click to view more" />
+                    </a>
+				</div>
+			</div>
+            <div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal43" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/43.png" class="grayscale" alt="Webflow design, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio traditional" data-cat="traditional,featured">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal22" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/21.jpg" class="grayscale" alt="Danger Close, click to view more" />
+                    </a>
+				</div>
+			</div>																																												
+			
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal24" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/23.jpg" class="grayscale" alt="The Eye, click to view more" />
+                    </a>
+				</div>
+			</div>																								
+			
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal25" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/24.jpg" class="grayscale" alt="Stale Dystopia" />
+                    </a>
+				</div>
+			</div>	
+
+			<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal26" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/25.jpg" class="grayscale" alt="Meant to Be, click to view more" />
+                    </a>
+				</div>
+			</div>				
+							
+			<div class="portfolio graphics featured" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal29" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/28v2.jpg" class="grayscale" alt="Foresight technology banner, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">	
+				<a data-target="#portfolioModal31" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/30.jpg" class="grayscale" alt="Breathe, click to view more" />
+                    </a>
+				</div>
+			</div>	
+							
+			<div class="portfolio film featured 3D" data-cat="film, 3D">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal33" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/32v2.jpg" class="grayscale" alt="Modern fountain, click to view more" />
+                    </a>
+				</div>
+			</div>				
+																						
+			<div class="portfolio 3D" data-cat="3D">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal36" class="portfolio-link" data-toggle="modal">		
+					<img src="assets/gallery/thumb/35.jpg" class="grayscale" alt="Wheelbarrow Model, click to view more" />
+                    </a>
+				</div>
+			</div>			
+			<div class="portfolio graphics featured" data-cat="graphics">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal20" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/36v2.jpg" class="grayscale" alt="Computacenter graphics, click to view more" />
+                    </a>
+				</div>
+			</div>				
+			<div class="portfolio traditional" data-cat="traditional">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal37" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/37.jpg" class="grayscale" alt="Takeoff, click to view more" />
+                    </a>
+				</div>
+			</div>
+			<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal38" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/38.jpg" class="grayscale" alt="Generation Anxious, click to view more" />
+                    </a>
+				</div>
+			</div>											
+						<div class="portfolio illustration" data-cat="illustration">
+				<div class="portfolio-wrapper">
+                    <a data-target="#portfolioModal39" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                            </div>
+                        </div>
+					<img src="assets/gallery/thumb/39.jpg" class="grayscale" alt="Rogue, click to view more" />
+
+                    </a>
+                    
+				</div>
+			</div>
+        			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal32" class="portfolio-link" data-toggle="modal">			
+					<img src="assets/gallery/thumb/31.jpg" class="grayscale" alt="Magnetism Game" />
+                    </a>
+				</div>
+			</div>
+						<div class="portfolio film featured 3D" data-cat="film, 3D">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal40" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/40v2.jpg" class="grayscale" alt="3D laptop, click to view more" />
+                    </a>
+				</div>
+			</div>
+						<div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal42" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/42.jpg" class="grayscale" alt="Magnetism Pitch, click to view more" />
+                    </a>
+				</div>
+			</div>
+                        <div class="portfolio 3D" data-cat="3D">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal44" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/45.jpg" class="grayscale" alt="Crystals, click to view more" />
+                    </a>
+				</div>
+			</div>
+                        <div class="portfolio film" data-cat="film">
+				<div class="portfolio-wrapper">
+				<a data-target="#portfolioModal46" class="portfolio-link" data-toggle="modal">				
+					<img src="assets/gallery/thumb/46.jpg" class="grayscale" alt="Comms, click to view more" />
+                    </a>
+				</div>
+			</div>
+									
+		</div>
+            </div>
+		
+	</div>
+    </div><!-- container -->
+	<!-- =================================================================================================
+	                    PORTFOLIO MODALS
+==========================================================================================================
+-->
+<div class="animatedParent animateOnce">
+
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/2.jpg" alt="">
+                        
+  
+                    
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                       
+                        <h3>NIGHT HUNTER<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Warbird Replicas is an outstanding company creating top quality handmade remote controlled aircraft of the World War era. My client contacted me regarding an issue of lacking promotional material for the lesser known aircraft. In order to gather interest for these aircraft my client wished to have some dynamic artwork for the aircraft, in this case, the Ju88.
+                        <br>When my client sent me a photo of the desired angle and proportions, I created a few sketches to be sent to him to see which one he prefers. This will allow the client to get a feel of what the final product would look like near the end. Each of these drafts are sent to the client in order to keep close communications. This is one of my absolute favourite pieces from my aircraft artwork, due to the dark but angellic atmoshpere of the presence of the Ju88, the night bomber.</p>
+                        <h4>DRAFTS</h4>
+
+                           <p class="modaltext">Like all of my art, I create drafts according to what my client describes, creating short and quick designs of what I can follow through with. This not only helps my brain storming, but also gives a good idea of what the piece may look like once finished, without losing time.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/3.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>ALPHA &amp; OMEGA<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">For my Photography module at University, I had to create a poster using only photomanipulation tools.<br> I created this piece using photos I have taken from Austria, France (The building) and Duxford Hangar along with a photo of a Peacock, crocodile and a bearded dragon to create the dinosaur. (Have you noticed I like dinosaurs?) I used a range of layer blend modes and brushes, as well as my wacom tablet to cut around the images with a very think but soft eraser to keep edges fine and soft.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/4.jpg" alt="">
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>THE LAST INTERCEPTOR<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">This started out as a quick practice sketch while I was sitting in the middle of a field. I wanted to practice drawing architectural figures, that involves getting every line perfect, which is a very tough task.<br>
+                        However it ended up becoming something I was eager to finish, and for the first time, use my copic markers. </p>
+                        <h4>REFERENCE</h4>
+                        <div class="drafts">
+                            <img class="img-responsive img-centered" src="http://www.daveswarbirds.com/Nippon/photos/J7W1_Shiden_.jpg" alt="reference">
+                        </div>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal 5 -->
+
+        <!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="modal-body animated bounceInDown">
+            <div class="row">
+                
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/6.jpg" alt="">
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>METAMORPHOSIS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">In this project for my Art and Design A levels, I created a digital piece showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. This piece in particular was a commission for a friend who desired an image that was bright and overdramatic.</p>
+                        
+                        
+                        </div>
+                </div>
+                    
+                
+            <div class="row">
+                <div class="container">
+                <div class="drafts">
+                    <h4>DRAFTS</h4>
+                            <img class="img-responsive img-centered" src="assets/gallery/prev/6.jpg" alt="drafts">
+                        </div>
+                <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+            </div>
+            </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    
+            <!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/7.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>RAPTOR<br>CONCEPTS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Some practice sketching on drawing raptors in my own style in preparation for creating a 3D model in Zbrush in the future.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/8.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>BAD TRIP<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An experimental fineliner and colour pencil drawing of a fox for a friend. The black blotches represent the vision defects that people tend to get when they are dreaming.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/9.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>WE ARE OBLIVIOUS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A vibrant oil pastel drawing of a dragonfly, done as part of my A2 Art &amp; Design coursework.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+               <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container modal-body animated bounceInDown">
+                    <div class="col-lg-6 col-sm-12"> <img class="img-responsive" src="assets/gallery/a3Exercise.jpg" alt=""></div>
+                    <div class="col-lg-6 col-sm-12"> <img class="img-responsive" src="assets/gallery/a3Relaxationprint.jpg" alt=""></div>
+                    </div>
+                <div class="container">
+                <div class="row">
+
+                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                    
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h3 style="text-align: center">Health infographics<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center;">During my industrial placement, I created various infographics to coincide with the release of a new phone app for the HR department. Creating these infographics, I wanted to explore the company's house styles in different ways to present itself informally for its purpose. Due to time constraints, most of the vector art were sourced from Shutterstock, which were then arranged and edited in various aspects in order to fit the style.</p>
+                        </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/11.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>POLAR OPPOSITES<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An A2 sized pencil drawing. It was as frustrating as it sounds. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/12.jpg" alt="">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>EVOLUTION<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A quick painting of an evolved insect looking at its previous ancestor. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects.<br><br> In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 13 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"><div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/IrJDq9mI9_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Industrial placements interview<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">One of the first short videos I produced for Computacenter, a look into being an industrial placement student at Computacenter. This was requested by the Future Talent manager, as a means of showcasing Computacenter in an attractive light for young people. This task tested my skills in both time management and video production and post production. Additionally it allowed me to develop my skills in filming and Adobe's creative cloud software.</p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+              <!-- Portfolio Modal 14 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="modal-body animated bounceInDown">
+                <div class="row">
+
+                    <div class="col-lg-8 col-lg-offset-2"> <img class="img-responsive" src="assets/gallery/14.jpg" alt="Falling Sun">
+
+
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <h3 style="text-align: center">FALLING SUN<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center; margin-top: 50px">A rather fast painting of an aircraft flying towards the horizon, done with the help of a painted model Sabre aircraft from my grandfather.</p>
+
+
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 ">
+                        <div class="drafts">
+                            <h4>DRAFTS</h4>
+                            <div class="col-lg-6">
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-1.png" alt="Draft 1"></div>
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-2.png" alt="Draft 2"></div>
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-3.png" alt="Draft 3"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-4.png" alt="Draft 4">
+                                </div>
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-5.png" alt="Draft 5">
+                                </div>
+                                <div class="draftsimg">
+                                    <img class="img-responsive" src="assets/gallery/prev/14-6.jpg" alt="Draft 6">
+                                </div>
+
+
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="modalbutton">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+              <!-- Portfolio Modal 15 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/15.jpg" alt="Nusiness Card">
+                        
+
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>BUSINESS CARD<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A business card design for a graphic design company for my coursework at University.</p>
+
+                                                                              <h4>DRAFTS</h4>
+                            <div class="drafts"><div class="container">
+                                                       <img class="img-responsive img-centered" src="assets/gallery/prev/15.png" alt="Draft"></div>
+                        </div>
+                                
+                               
+                              </div>
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                  <!-- Portfolio Modal 16 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-6"> <img class="img-responsive" src="assets/gallery/16.jpg" alt="Ju87">
+
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>CALLIGRAM<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A calligram of a Ju87 night bomber on a dive, with text from an interview with a pilot and civillian about their PTSD caused by the sounds of the Ju87.</p>
+                                
+                               
+                              </div>
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                  <!-- Portfolio Modal 17 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/17.jpg" alt="Festival Poster">
+                        
+
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>POSTER DESIGN<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A poster for a made-up air show in Bournemouth. I wanted to create a mix between the traditional poster effect, and the watercolour effect to create a traditionally-drawn looking poster.</p>
+                                
+                               
+
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <!-- Portfolio Modal 19 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            
+                <div class="modal-body animated bounceInDown">
+                    <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2"> <img class="img-responsive" src="assets/gallery/19.jpg" alt="Instagram Promo"></div>
+                        <div class="col-lg-4"><img class="img-responsive" src="assets/gallery/18.jpg" alt="Instagram Promo"></div>
+                        
+
+                    </div>
+                    <div class="row">
+                    
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h3 style="text-align: center; margin-top: 50px">INSTAGRAM PROMO<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center">I and a team of graphic design assistants produced a house style for Ghost Partnership, a company that aims to give students good deals on stores around Canterbury. Creating these instagram graphics provided the marketing team with a good template to advertise their new discounts.</p>
+                                
+                          <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>      
+ 
+                              </div>
+                           
+                           
+                            </div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+        <!-- Portfolio Modal 20 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="center container">
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/whitepaper2.PNG" alt="GDPR image">
+                        
+
+                    </div>
+                                     <div class="col-lg-4">
+                        <img class="img-responsive" src="assets/gallery/whitepaper.PNG" alt="GDPR image">
+                            </div>
+                                                <div class="col-lg-4">
+                        <img class="img-responsive margin" src="assets/gallery/twitter.PNG" alt="GDPR image">
+                                                    <img class="img-responsive margin" src="assets/gallery/twitter2.PNG" alt="GDPR image">
+
+                                
+                                </div>
+
+                </div>
+            </div>
+                    <div class="row">
+                    <div class="col-lg-12">
+                        <h3 style="text-align: center">Industrial Placement <BR> At Computacenter<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center; margin-bottom: 50px;">I worked for a year as a Graphics Designer at an IT service company known as Computacenter, as part of the industrial placement scheme at my university. My own personal aim for this year was to develop my skills in graphics design whilst supporting the marketing team at Computacenter. I started the year knowing little about any other Adobe program other than Photoshop, and ended the year preferring every other software but Photoshop. It had taught me a lot about using InDesign for various projects, even using the paging system to create variants of a template. This was used for their social media content. <br><br>
+                            
+                            As a graphics designer, I was involved with the creation of social media content, as well as whitepapers and digital signage across the company's offices. My role was very much focused on the internal aspects of the company, where the content I produced were made with employees as the primary audience. later on in the year, I was able to gain knowledge in the area of film and motion graphics as well as web design. I produced numerous content for the Bid Management team; developing single-page websites, short interviews for sharepoint pages, and motion graphics for IT conventions including Infosec London. My role had definitely developed throughout the course of the year, becoming a multimedia designer by the end of it. Below are just a few of the graphics I had produced, and you'll find some of the films and motion graphics in the films and vfx section of my website. Just a note that some of the work I had produced are not for the eyes of the public.</p>
+
+                              </div>
+                        </div>
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-lg-6">
+                            <img class="img-responsive margin" src="assets/gallery/award.jpg" alt="GDPR image">
+                            <img class="img-responsive margin" src="assets/gallery/twitter3.PNG" alt="GDPR image"></div>
+                            
+                        <div class="col-lg-6"><img class="img-responsive margin" src="assets/gallery/whitepaper3.PNG" alt="GDPR image"></div>
+                        </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+ 
+            <!-- Portfolio Modal 21 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/21.jpg" alt="Survival">
+                        
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>SURVIVAL<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A raptor study applied to my style, drawn from reference, using prismacolour pencils.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <!-- Portfolio Modal 22 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-5"> <img class="img-responsive" src="assets/gallery/22.jpg" alt="Survival">
+                        
+
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>DANGER CLOSE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A still-life study of a dead hornet, combined with a very rough watercolour style using the colour connotations of a hornet. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects.<br><br> In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+              <!-- Portfolio Modal 27 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal28" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"><div class="iframe"><iframe width="560" height="315" src="https://gfycat.com/ifr/lazysimplisticbluewhale" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+  
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Abstract Motion Graphic<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A small 3D motion graphic created in Blender made to loop infinitely. I used a few tutorials to help achieve this effect.
+                        </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--modal23-->
+              <!-- Portfolio Modal 23 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal23" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"><div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/Br_O5ZF_yAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Computacenter Showreel<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A lot of the content that I had created for Computacenter was for internal marketing purposes, here is a showreel of some work that can be seen externally.
+                            At Computacenter, I produced videos mainly for internal purposes, focusing on interviews and short talking head videos for employee use. Occasionally I created small motion graphics for these purposes, as well as motion graphics for IT conventions such as InfoSec Europe 2018, to be used on the digital screens during talk shows. Two of my favourite projects include creating an introduction to Computacenter animation for new employees for HR, and a fun boxing for charity video, shot in the style of 1976's Rocky, created to raise awareness for employees taking part in the boxing charity event.
+                            <br>
+                            I hope you'll enjoy the showreel, and feel free to ask any further questions regarding my work at Computacenter.
+                        </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Portfolio Modal 27 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal27" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"><div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/nkpc_HUYnJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Mediatonic Game Jam<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Edited a video about Mediatonic's Game Jam event in 2018 with an aim to showcase its pragmatic work culture and vibrant new branding. The animations were created with the help of Sweet and Animation composer plugins. 
+                            
+                            
+                        </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Portfolio Modal 24 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal24" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/24.jpg" alt="The Eye">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>THE EYE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A Photoshop drawing of a dogfight in the middle of a hurricane. This is part of my A Level project, given the theme of 'Fire, Water, Earth, Air'. With such a broad theme, I researched my idea of how all 4 elements are 'working together' to stop the human race from further destroying the Earth with their developments.
+Aircraft were a huge step to the future of travel and later, war, as humans once again fight for their own power and ‘for peace’. As soon as people took to the skies, the power of the elements amplify. The winds get stronger as aircraft get greedy and take to higher skies and speeds, the rain damages their sight, the fire destroys the aircraft and the debris lifted up by the high speeds of winds can only make things worse..</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 25 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal25" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/26.jpg" alt="Stale Dystopia">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>STALE DYSTOPIA<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A drawing of a bearded dragon being confined in a box, unknowing of the world around it.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+  <!-- PORTFOLIO MODAL 26 -->      
+    <div class="portfolio-modal modal fade" id="portfolioModal26" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/27.jpg" alt="Meant To Be">
+                        
+      
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>MEANT TO BE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A drawing, quite similar to the commissioned version, of a dragonfly 'evolving' out of the water. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds. </p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+  <!-- Portfolio Modal 29 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal29" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/30v2.jpg" alt="Banner">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>CONVENTION <br>BANNER DESIGNS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Created two banners for Foresight technology, to be displayed in an IT B2B convention. The imagery was supplied by the company to be used in the banners and on their website.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Portfolio Modal 31 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <img class="img-responsive" src="assets/gallery/32.jpg" alt="Breathe">
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Breathe<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A small watercolour painting of a character design for an online contest.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 32 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                   <div class="col-lg-8"><a a href="http://www.magnetismgame.nicoleramsay.co.uk" target="_blank"><img class="img-responsive" src="assets/gallery/33.png" alt="Magnetism Game"></a>
+                        
+                           <div class="list-inline">
+
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <a href="http://www.magnetismgame.nicoleramsay.co.uk" target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-camera-retro" aria-hidden="true"></i>-->View Website</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Magnetism<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A promotional website designed and created for my third year project, using Foundation 6. I have partnered with Developer and Musician Milan Maru to create this game in my third year. </p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 33 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="modal-body animated bounceInDown">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                    
+                        <div class="ratio-16-9"><iframe class="ratio-inner" src="https://www.youtube.com/embed/PhAOPQS7mHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+                    
+                    </div>
+                    </div>
+                
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-lg-offset-3">
+                    
+                        <h3 style="text-align: center">Modern Fountain<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext"  style="text-align: center; margin-bottom: 50px;">A modern indoor fountain made with PBR textures. This was created for a visual effects module at university. The goal was to create any object that would allow for a simulation to take place, and then composite the object into a filmed scene. I chose to do an indoor fountain as simulating water was the most interesting kind of simulation to me, and it was certainly a challenge to produce. Click below to view the model for yourself.</p>
+                        </div>
+                    </div>
+                        <div class="row">
+                                                <div class="container iframe"><iframe width="640" height="480" src="https://sketchfab.com/models/f006d88127814c0c98edc5bfe1e65eb0/embed?autostart=0&amp;transparent=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </div>
+                               
+ 
+                              </div>
+                           </div>
+            </div>
+                        <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>    
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 34 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal34" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"><a style="cursor: not-allowed" href="" target="_blank"><img class="img-responsive" src="assets/gallery/35.png" alt="Annies at Folkestone"></a>
+                        
+                           <div class="list-inline">
+                           
+  
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <a style="cursor: not-allowed;" target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-camera-retro" aria-hidden="true"></i>--> WEBSITE UNAVAILABLE</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Annie's at Folkestone<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Annie's at Folkestone is a new and small local business with the goal of delivering quality floral arrangements in the local are at Folkestone. Because of the small audience, my client needed a small, simple website that she can use as a tool to show off her creations while allowing her customers to order online. This provided her a way to organize her customers' orders as well. <br>
+                        I created a simple but proffesional website that showcased the best of Annie's at Folkestone's qualities. Affordable and home-grown flowers that can be delivered to your doorstep or custom arrangements for special occasions.
+                        <br>
+                        Website is currently available.
+                        
+                       </p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 35 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal35" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <a style="cursor: not-allowed" target="_blank"><img class="img-responsive" src="assets/gallery/40.png" alt="Photojournalism"></a>
+                        
+                           <div class="list-inline">
+
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <a style="cursor: not-allowed"  target="_blank"><div class="modalli" id="viewweb"><!--<i class="fa fa-plus" id="web" aria-hidden="true"></i>--> WEBSITE UNAVAILABLE</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>The importance of Play<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A small experimental WordPress portfolio for the experimental artist Tyler King. The idea that needed to be conveyed was the sense of an aged website style while still pertaining to modern website design and features. <br> Website is currently unavailable.</p>
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 36-->
+    <div class="portfolio-modal modal fade" id="portfolioModal36" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/35.jpg" alt="Portrait">
+                        
+<!--
+                           <div class="list-inline">
+                           
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-calendar" aria-hidden="true"></i> April 2017</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-clock-o" aria-hidden="true"></i> 15 hours</div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modalli"><i class="fa fa-camera" aria-hidden="true"></i> Maya, Photoshop</div>
+                            </div>
+                        
+                        </div>
+-->
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Wheelbarrow Model<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">An accurate model of a Wheelbarrow I created from scratch including UVs and textures. For my assignment, I needed to create a model which will fit seamlessly within the scene. I also needed to make accurate lighting and positioned the camera correctly so that the model will be set with the correct perspective.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 37 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal37" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-4"> <img class="img-responsive" src="assets/gallery/37.jpg" alt="Takeoff">
+                        
+
+                    </div>
+                    <div class="col-lg-8">
+                        <h3>Takeoff<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A watercolour and fineliner painting of a dragonfly that was taking off of my hand. This is a continuation on my A2 Art &amp; Design insect project, that includes further studies of insects. <br><br>In this project for my Art and Design A levels, I created works showing the future evolution of the omnipresence of insects, as I am very interested in the idea of how insects may be the most complex and the most perfected creatures on Earth, withstanding thousands of years of evolution and yet we still shun and ignore for their pestillence. I wanted to show both the beauty and the repulsion for these magnificent animals that can change the perception of insects within our minds.</p>
+                                
+                               
+ 
+                              </div>
+                           </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 38 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal38" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe src="https://drive.google.com/file/d/0Bwt34-piFHhCOU5OUy1zRURqbE0/preview" width="640" height="480"></iframe></div>
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>GENERATION ANXIOUS<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A short documentary as part of my course at University. I had the role of assistant director/producer, organizing and setting up shots for the film.</p>
+                                
+                               
+ 
+                              </div>
+                    <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                           </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+<!-- Portfolio Modal 39 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal39" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/39.jpg" alt="Rogue">
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>ROGUE<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">I was commissioned by a writer to create a mythical Orc based on the World of Warcraft series. He requested a design that would aid him to fully realize his character and to give him a foundation on which to build upon his fiction. Additionally the art would have to encompass the character's nature. This was done by setting the character in a landscape that has importance to the Orc.<br>
+                        This was a big project for me, as an artist I don't feel very confident in my skills as a landscape artist. I wanted to utilize the style of a concept artist, which they would normally focus on atmosphere and depth rather than detail into the landscape so that it speeds up the design process. I prefer this style over highly detailed landscapes because I feel that the style outweighs any need for extreme detail which the viewer may or may not appreciate. Plus, less time taken on the landscape as well would allow me more time to focus on the detail of the Orc, which the art focuses on. Unfortunately, this style takes a lot of research and practice, which took a lot of my time to learn. Not all of the techniques I've learnt are shown here, because I learnt and understood the techniques better afterwards.<br>
+                        So, throughout this painting, I have gained a lot of knowledge and practice to move on to bigger things and hopefully speed up the process.       
+                        The commissioner and I communicated regularly, sending previews of the sketches, landscape thumbnails and progress with the painting of the orc. The commissioner has a huge interest in physiology and anatomy which helped me to understand the anatomy of an orc which is slightly different to that of a regular human. <br>
+                        Approaching the end, I created many layers with pure lighting and depth adjustments where I will add debris, flares and bokeh effects to create varying areas of focus.  </p>
+                                                   </div>
+                        <h4>DRAFTS</h4>
+                                                        <div class="row">
+                            <div class="drafts">
+                              <div class="col-lg-4">
+                                                   <div class="draftsimg">
+                                                       <img class="img-responsive" src="assets/gallery/prev/39-1.jpg" alt="draft 1"></div>
+                                                    <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-2.jpg" alt="draft 2"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-3.jpg" alt="draft 3"></div>
+                                </div>
+
+                              <div class="col-lg-4"><div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-4.jpg" alt="draft 4"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-5.jpg" alt="draft 5"></div>
+                                                         <div class="draftsimg">
+                                                        <img class="img-responsive" src="assets/gallery/prev/39-6.jpg" alt="draft 6"></div>
+                                                        
+                                </div>
+                                <div class="col-lg-4">
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-7.jpg" alt="draft 7">
+                                  </div>                    
+                                                   <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-8.jpg" alt="draft 8">
+                                  </div>
+                                                                                     <div class="draftsimg">
+                              <img class="img-responsive" src="assets/gallery/prev/39-9.jpg" alt="draft 9">
+                                  </div>
+                                  
+                               
+                                </div>
+                              </div>
+                           </div>        
+                               
+ 
+                              </div>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 45 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal45" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+            
+                <div class="modal-body animated bounceInDown">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                    
+                                                <div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/rldPQFlyP10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h3 style="text-align: center">FYP Showcase<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center; margin-bottom: 50px;">My final year project is a VR game inspired by Renaissance paintings and specifically on Leonardo DaVinci inventions and painting style. I was also inspired by <a style="color:#f34b16; font-weight: bold;" href="https://www.borrowedlightvr.com/the-night-cafe/">The Night Cafe</a> VR experience that uses mainly diffuse textures and animated skies to replicate a 2D visual into 3D. I was in love with the idea and wanted to further develop on it. I focused heavily on creating imperfect models and materials for a painterly look in this project. My role in this was game direction and the professional development of 3D models. I created the flora, a rigged bird, some procedural materials in Substance Designer and traditionally painted textures in Photoshop, and a highly-detailed boat. A flying machine was also in the works. I was involved in the full process of most of the models, from base modelling in Maya to sculpting detail in zBrush, retopology in 3D Coat and baking textures in Substance Painter. I also used Tree It - a free alternative to Speedtree for creating meshes of trees and plants, and created my own painterly textures for them. <br><br>
+                        Below, you can see one of my models within the Sketchfab 3D viewer.</p>
+
+                          
+                        </div>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                            <div class="container-fluid iframe"><iframe width="640" height="400" src="https://sketchfab.com/models/f32367a817384cdbb0ac1649ec75f53e/embed?autostart=0&amp;transparent=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        
+                    </div>
+
+ <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                              </div>
+
+                        </div>
+                           </div>
+                    </div>
+        </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 40 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal40" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+            
+                <div class="modal-body animated bounceInDown">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                    
+                                                <div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/sQHHGo25nws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h3 style="text-align: center">Laptop<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext" style="text-align: center; margin-bottom: 50px;">A model created for my visual effects module at university to showcase my modelling, texturing and compositing skills. I used my own laptop as a reference.
+The project's aims was to practice photorealism, using various maps to produce surface imperfections as well as changing the properties of the shader to accurately reflect the material of the object. The model was then composited into the film, using a HDRI of the location for precise lighting.  </p>
+
+                          
+                        </div>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                            <div class="container-fluid iframe"><iframe width="640" height="400" src="https://sketchfab.com/models/44f0f274976c41d79af91791ff700cbe/embed?autostart=0&amp;transparent=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        
+                    </div>
+
+ <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                              </div>
+
+                        </div>
+                           </div>
+                    </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    
+ <!-- Portfolio Modal 41 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal41" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                   <div class="col-lg-8"> <img class="img-responsive" src="assets/gallery/38.jpg" alt="Esfir">
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Esfir<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Concept art for my third year game project, about to be produced in Maya and ZBrush. It is a possible playable character in this game.</p>
+                                
+                               
+ 
+                              </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- Portfolio Modal 42 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal42" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"> <div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/06SLTe4oTFM?color=white&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Magnetism Project Pitch<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Our final pitch for our final year project, co-produced with Developer and Musician Milan Maru. This features our own lighting set-up and detailed animation, voice-equalizing and original soundtrack.</p>
+                                
+                               
+ 
+                              </div>
+
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Portfolio Modal 43 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal43" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                   <div class="col-lg-8"><a a href="http://www.wallofwork.nicoleramsay.co.uk" target="_blank"><img class="img-responsive" src="assets/gallery/43.png" alt="Magnetism Game"></a>
+                        
+                           <div class="list-inline">
+                           
+
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <a href="http://www.wallofwork.nicoleramsay.co.uk" target="_blank"><div class="modalli" id="viewweb">View Website</div></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Wall of Work<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">During my placement year at Computacenter, I developed an internal site showcasing the design work of the marketing team. It was developed using Webflow, a new tool that combines development and design into one package accessed via the browser, and enables speedy development. It was extremely useful in these circumstances where the wants and needs of the website changed drastically, as well as not having enough time each day to spend on standard web development in my role. <br><br>The site would be used in conjunction with any internal requests from clients to discover what they need in their project. Due to changes in the wider goals of the company, the site was unfortunately never used. However it has taught me a lot about development in Webflow.</p>
+                                
+                               
+ 
+                              </div>
+                           
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 44 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal44" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            
+                <div class="modal-body animated bounceInDown">
+                    <div class="row">
+                        <div class="col-lg-7">
+                    
+                        <img class="img-responsive" src="assets/gallery/44.jpg" alt="Crystals"></div>
+
+                                            <div class="col-lg-5">
+                    
+                        <h3>Crystals<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">Created some small crystals as part of my practice with Blender. I created the materials procedurally using Blender's shader editor, the scratches and dents were made using a black/white texture plugged into the roughness and bump nodes.</p>
+                                                <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                
+                    
+
+                        
+                           
+                
+            </div>
+   
+                    </div>
+            
+                </div>
+</div>
+
+             <!-- Portfolio Modal 23 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal46" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="modal-body animated bounceInDown">
+                    <div class="col-lg-7"><div class="iframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/--APVhXqO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        
+
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Computacenter Consultancy Comms<span class="spot"><i class="fa fa-circle fa-fw" aria-hidden="true"></i></span></h3>
+                        <p class="modaltext">A quick tongue-in-cheek video created for Computacenter's annual consultancy event with a Star Wars theme. The department wanted a video to support the comms that will go out to everyone in attendance. I rotoscoped the actor from the video I was sent and applied some styles to the venetian blinds effect in After Effects for the hologram look. There is some simple tracking for the lightsaber done in AE as well.
+
+                        </p>
+                        </div>
+                            <div class="modalbutton">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"> Close Project</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+   
+
+       
+ 
+
+<div class="section animatedParent animateOnce">
+
+<div id="contact">
+    <div class="paranoise3"> 
+
+    <a id="contactanch" class="smooth"></a>
+
+
+        <H1 style="padding-top: 50px;" class="animated fadeIn"><span class="underline">LET<span class="highlight">'</span>S HAVE A CHAT<span class="highlight">.</span></span></H1>
+
+
+<div id="form-main" class="par animated fadeIn">
+  <div class="container">
+      <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+      
+ 
+    <form class="form" id="form1" action="mailto:nicoleramsay@hotmail.co.uk?Subject=PortfolioViewer" method="post" enctype="text/plain">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+
+    </form>
+      </div>
+      </div>
+
+      
+
+    </div>
+<div class="container-fluid">
+
+                 <footer>
+                     <a href="https://www.facebook.com/nicole.ramsay2"><div class="fa fa-facebook fa-4x"></div></a>
+            <a href="https://www.instagram.com/nlco1e/"><div class="fa fa-instagram fa-4x"></div></a>
+            <a href="https://www.linkedin.com/in/nicole-ramsay/"><div class="fa fa-linkedin fa-4x"></div></a>
+                     <a href="https://sketchfab.com/Encoder"><div class="fa icon-sketchfab-logo"></div></a>
+    </footer>
+ 
+
+    </div>
+        </div>
+        
+        
+        
+  
+    </div>
+    </div>
+
+  
+</div> 
+    
+
+  <!-- ============================ SCRIPTS ============================ -->  
+   <!-- JQUERY -->
+<script>
+    $("#parabg").addClass("load");
+    $("#flowers").addClass("load");
+    $("#dinomount").addClass("load");
+    $("#secondmountain").addClass("load");
+    $("#thirdmountain").addClass("load");
+    $("#treestump").addClass("load");
+    </script>
+    <script src="js/jquery-smooth-scroll.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+
+    <!--BOOTSTRAP-->  
+<script src="js/bootstrap.min.js"></script>
+<!--
+       <script>
+    $(document).ready(function() {
+
+  if(window.location.href.indexOf('#Restart') != -1) {
+    $('#portfolioModal2').modal('show');
+  }
+
+});
+    
+    </script>
+-->
+
+    <!-- PARALLAX -->
+    <script src="js/parallax.js"></script>
+	<script>
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+        
+	</script>
+  
+
+	
+<script>
+	$(document).ready(function($){
+          var parPosition = [];
+        $('.par').each(function() {
+            parPosition.push($(this).offset().top);
+        });
+        
+		$('a').click(function(){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 500);
+			return false;
+		});
+        
+        	$('.vNav ul li a').click(function () {
+			$('.vNav ul li a').removeClass('active');
+				$(this).addClass('active');
+		}); 
+        
+       $('.vNav a').hover(function() {
+           $(this).find('.label').show();
+           }, function() {
+           $(this).find('.label').hide();
+       });
+        
+           $(document).scroll(function(){
+        var position = $(document).scrollTop(),
+                index; 
+                for (var i=0; i<parPosition.length; i++) {
+                if (position <= parPosition[i]) {
+                    index = i;
+                    break;
+                }
+            }
+      $('.vNav ul li a').removeClass('active');
+            $('.vNav ul li a:eq('+index+')').addClass('active');
+        });
+        
+        	$('.vNav ul li a').click(function () {
+			$('.vNav ul li a').removeClass('active');
+				$(this).addClass('active');
+		});   
+	});
+    
+</script>
+
+	
+
+
+<!--<script src="js/animatedheadline.js"></script>-->
+<!--KEEP CONTENT STILL WHEN MODAL OPEN-->
+<!--
+    <script>
+        var scrollPosition = 0;
+
+        $('#portfolioModal1').bind('show.bs.modal', function () {
+//          $("html").css("margin-right", "-15px");
+//            alert(2);
+            scrollPosition = $(document).scrollTop();
+        });
+
+        $('#portfolioModal1').bind('hidden.bs.modal', function () {
+//          $("html").css("margin-right", "0px");
+//            alert(1);
+            $(document).scrollTop(scrollPosition);
+        });
+    </script>
+-->
+    
+    <!-- SCROLL ARROW-->
+    <script>
+    //this is where we apply opacity to the arrow
+$(window).scroll( function(){
+
+  //get scroll position
+  var topWindow = $(window).scrollTop();
+  //multipl by 1.5 so the arrow will become transparent half-way up the page
+  var topWindow = topWindow * 1.5;
+  
+  //get height of window
+  var windowHeight = $(window).height();
+      
+  //set position as percentage of how far the user has scrolled 
+  var position = topWindow / windowHeight;
+  //invert the percentage
+  position = 1 - position;
+
+  //define arrow opacity as based on how far up the page the user has scrolled
+  //no scrolling = 1, half-way up the page = 0
+  $('.arrow-wrap').css('opacity', position);
+
+});
+
+    </script>
+
+<!--
+=================================
+        CREDITS
+=================================
+
+DOT NAVIGATION
+http://jsfiddle.net/carincamen/ram0Ly92/
+
+MOBILE NAV
+http://bootsnipp.com/snippets/featured/mobile-nav-bar
+
+PARALLAX
+http://matthew.wagerfield.com/parallax/
+
+ANIMATED HEADLINE FOR ABOUT
+https://codyhouse.co/demo/animated-headlines/
+
+ANIMATE.IT
+http://jackonthe.net/css3animateit/
+
+SMOOTH SCROLL
+https://github.com/kswedberg/jquery-smooth-scroll
+
+HINT ARROW
+http://codepen.io/robooneus/pen/Aclqr
+
+MIXITUP GALLERY
+https://www.kunkalabs.com/mixitup/ AND http://stackoverflow.com/questions/22312520/using-mixitup-plugin-in-image-gallery
+
+BOOTSTRAP MODAL HTML
+https://blackrockdigital.github.io/startbootstrap-agency/
+
+ICONS BY FONTAWESOME
+http://fontawesome.io/
+
+CONTACT FORM
+https://codepen.io/rexkirby/pen/ekvtL
+
+-->
+
+
+
+    
+</body>
+</html>
